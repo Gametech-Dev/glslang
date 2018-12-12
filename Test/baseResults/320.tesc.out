@@ -3,9 +3,6 @@ ERROR: 0:6: 'quads' : unrecognized layout identifier, or qualifier requires assi
 ERROR: 0:7: 'ccw' : unrecognized layout identifier, or qualifier requires assignment (e.g., binding = 4) 
 ERROR: 0:8: 'fractional_even_spacing' : unrecognized layout identifier, or qualifier requires assignment (e.g., binding = 4) 
 ERROR: 0:10: 'patch' : can only use on output in tessellation-control shader 
-ERROR: 0:24: 'gl_PointSize' : required extension not requested: Possible extensions include:
-GL_EXT_tessellation_point_size
-GL_OES_tessellation_point_size
 ERROR: 0:25: 'gl_ClipDistance' : no such field in structure 
 ERROR: 0:25: 'expression' :  left of '[' is not of type array, matrix, or vector  
 ERROR: 0:32: 'gl_PointSize' : required extension not requested: Possible extensions include:
@@ -31,9 +28,6 @@ ERROR: 0:84: 'location' : overlapping use of location 4
 ERROR: 0:88: 'location' : overlapping use of location 4
 ERROR: 0:98: 'vertices' : can only apply to a standalone qualifier 
 ERROR: 0:99: 'vertices' : inconsistent output number of vertices for array size of misSized
-ERROR: 0:104: 'gl_PointSize' : required extension not requested: Possible extensions include:
-GL_EXT_tessellation_point_size
-GL_OES_tessellation_point_size
 ERROR: 0:105: 'gl_PointSize' : required extension not requested: Possible extensions include:
 GL_EXT_tessellation_point_size
 GL_OES_tessellation_point_size
@@ -42,7 +36,7 @@ ERROR: 0:126: '' : array size required
 ERROR: 0:142: '[]' : tessellation-control per-vertex output l-value must be indexed with gl_InvocationID 
 ERROR: 0:143: '[]' : tessellation-control per-vertex output l-value must be indexed with gl_InvocationID 
 ERROR: 0:146: '[]' : tessellation-control per-vertex output l-value must be indexed with gl_InvocationID 
-ERROR: 35 compilation errors.  No code generated.
+ERROR: 33 compilation errors.  No code generated.
 
 
 Shader version: 320

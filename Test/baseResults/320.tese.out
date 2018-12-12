@@ -7,9 +7,6 @@ ERROR: 0:12: 'equal_spacing' : cannot change previously set vertex spacing
 ERROR: 0:13: 'fractional_even_spacing' : cannot change previously set vertex spacing 
 ERROR: 0:18: 'patch' : can only use on input in tessellation-evaluation shader 
 ERROR: 0:22: 'barrier' : no matching overloaded function found 
-ERROR: 0:33: 'gl_PointSize' : required extension not requested: Possible extensions include:
-GL_EXT_tessellation_point_size
-GL_OES_tessellation_point_size
 ERROR: 0:34: 'gl_ClipDistance' : no such field in structure 
 ERROR: 0:34: 'expression' :  left of '[' is not of type array, matrix, or vector  
 ERROR: 0:43: 'gl_PointSize' : required extension not requested: Possible extensions include:
@@ -42,7 +39,7 @@ ERROR: 0:96: 'location' : overlapping use of location 24
 ERROR: 0:99: 'location' : overlapping use of location 24
 ERROR: 0:101: 'gl_TessLevelOuter' : identifiers starting with "gl_" are reserved 
 ERROR: 0:113: 'gl_BoundingBoxOES' : undeclared identifier 
-ERROR: 39 compilation errors.  No code generated.
+ERROR: 38 compilation errors.  No code generated.
 
 
 Shader version: 320
